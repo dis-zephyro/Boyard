@@ -1,0 +1,7 @@
+.topnav,
+.sidenav .subnav
+.callback-form-group,
+.btn-buy,
+.btn-buy:hover {
+	filter: none;
+}
