@@ -43,11 +43,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -61,11 +57,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -79,11 +71,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -98,11 +86,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -116,11 +100,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -134,17 +114,12 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
                                 </div>
 
-
                                 <div class="col-sm-6 col-md-4">
                                     <div class="showcase-item">
                                         <img class="img-responsive" src="images/product-01.png" alt="">
@@ -154,11 +129,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -172,11 +143,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -190,11 +157,7 @@
                                     </div>
                                     <div class="showcase-buy clearfix">
                                         <form class="form-buy">
-                                            <div class="product-count">
-                                                <input class="count" type="number" value="1">
-                                                <span class="count-up"><i class="fa fa-chevron-up"></i></span>
-                                                <span class="count-down"><i class="fa fa-chevron-down"></i></span>
-                                            </div>
+                                            <input class="count" type="number" value="1">
                                             <button type="submit" class="btn btn-basket">В корзину</button>
                                         </form>
                                     </div>
@@ -204,6 +167,7 @@
                     </div>
 
                 </div>
+                <a href="#top" class="btn-top">Наверх</a>
             </section>
         </div>
 

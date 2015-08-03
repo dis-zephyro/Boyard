@@ -2,6 +2,7 @@
 .sidenav .subnav
 .callback-form-group,
 .btn-buy,
-.btn-buy:hover {
+.btn-buy:hover,
+.sidenav {
 	filter: none;
 }

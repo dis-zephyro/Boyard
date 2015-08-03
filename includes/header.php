@@ -1,4 +1,4 @@
-<header class="header" xmlns="http://www.w3.org/1999/html">
+<header class="header" id="top">
     <div class="row">
         <div class="col-sm-3 col-md-4">
             <a class="header-logo" href="/">

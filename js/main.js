@@ -23,3 +23,24 @@ $(document).ready(function() {
         }
     });
 });
+
+/*
+$(function() {
+    var pull = $('.sidenav-toggle');
+    menu = $('.sidenav-body');
+
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+
+});
+
+*/
+(function($) {
+    $(function() {
+
+        $('input[type=number]').styler();
+
+    })
+})(jQuery)
