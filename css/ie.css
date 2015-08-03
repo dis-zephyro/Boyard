@@ -3,6 +3,8 @@
 .callback-form-group,
 .btn-buy,
 .btn-buy:hover,
-.sidenav {
+.sidenav,
+.btn-gray,
+.go-basket {
 	filter: none;
 }

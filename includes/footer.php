@@ -17,6 +17,25 @@
     </div>
 </footer>
 
+<!-- Modal Box -->
+
+<div class="hidden">
+    <div class="go-basket" id="go-basket">
+        <div class="go-basket-title">Добавлено в Корзину:</div>
+        <div class="go-basket-text">Столешницы Скиф</div>
+        <div class="row">
+            <div class="col-xs-6">
+                <button class="btn btn-red btn-mini btn-close">Продолжить</button>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-red  btn-mini">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal End -->
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="js/vendor/bootstrap.min.js"></script>

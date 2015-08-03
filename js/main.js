@@ -24,23 +24,32 @@ $(document).ready(function() {
     });
 });
 
-/*
-$(function() {
-    var pull = $('.sidenav-toggle');
-    menu = $('.sidenav-body');
-
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
-
-});
-
-*/
 (function($) {
     $(function() {
 
         $('input[type=number]').styler();
 
     })
-})(jQuery)
+})(jQuery);
+
+
+/* Поле отправки файла */
+
+function getName (str){
+    if (str.lastIndexOf('\\')){
+        var i = str.lastIndexOf('\\')+1;
+    }
+    else{
+        var i = str.lastIndexOf('/')+1;
+    }
+    var filename = str.slice(i);
+    var uploaded = document.getElementById("fileformlabel");
+    uploaded.innerHTML = filename;
+}
+
+
+
+$(".btn-basket").click(function(event) {
+    event.preventDefault();
+    $.fancybox.open( {href : '#go-basket', padding : 0, closeBtn: false});
+});
