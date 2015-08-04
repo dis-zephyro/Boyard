@@ -354,7 +354,43 @@ body {
   }
 }
 .slider {
-  margin-bottom: 4px;
+  overflow: hidden;
+  max-height: 200px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 11px solid #f2f2f2;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+.slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #a7a7a7;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #000000;
+  -moz-box-shadow: inset 0px 1px 2px 0px #000000;
+  box-shadow: inset 0px 1px 2px 0px #000000;
+}
+.slider .slider-nav {
+  top: 50%;
+  width: 16px;
+  height: 32px;
+  cursor: pointer;
+  margin-top: -16px;
+  position: absolute;
+  background: url("../img/slider-nav.png") no-repeat;
+}
+.slider .slider-nav.nav-prev {
+  left: 0;
+  background-position: -16px 0;
+}
+.slider .slider-nav.nav-next {
+  right: 0;
+  background-position: 0 0;
 }
 /* Sidenav
    ========================= */
@@ -616,6 +652,9 @@ body {
   line-height: 20px;
   text-shadow: 0px 1px 0px rgba(167, 167, 167, 0.2);
 }
+.product-price span {
+  color: #484646;
+}
 .showcase-buy {
   margin-bottom: 25px;
 }
@@ -699,6 +738,108 @@ body {
   .form-auth {
     width: 70%;
   }
+}
+.product {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 50px;
+}
+.product .product-gallery {
+  max-width: 390px;
+}
+.product .product-image {
+  margin-bottom: 17px;
+}
+.product .product-image .product-image-inner {
+  padding: 2px 3px 8px 3px;
+}
+.product .product-image img {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+}
+.product .product-image-thumbs {
+  position: relative;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.product .product-image-thumbs ul {
+  margin: 0;
+  padding: 0;
+  max-height: 100px;
+  list-style: none;
+  overflow: hidden;
+}
+.product .product-image-thumbs li {
+  float: left;
+  width: 33.33%;
+  cursor: pointer;
+  padding: 2px 10px 8px 10px;
+}
+.product .product-image-thumbs li img {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
+}
+.product .product-image-thumbs .thumb-nav {
+  top: 50%;
+  color: #c22328;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  line-height: 20px;
+  margin-top: -10px;
+  position: absolute;
+}
+.product .product-image-thumbs .thumb-nav.thumb-prev {
+  left: 0;
+}
+.product .product-image-thumbs .thumb-nav.thumb-next {
+  right: 0;
+}
+.product .product-country {
+  margin-bottom: 15px;
+}
+.product .product-price {
+  margin-bottom: 25px;
+}
+.product .product-price-retail {
+  color: #7c7c7c;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.product .product-detail p {
+  margin-bottom: 10px;
+}
+.reply-form {
+  padding: 20px;
+  background: #f7f7f7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #d9d9d9;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #c9c9c9;
+  -moz-box-shadow: inset 0px 1px 2px 0px #c9c9c9;
+  box-shadow: inset 0px 1px 2px 0px #c9c9c9;
+}
+.reply-form .form-control {
+  text-align: left;
+}
+.reply-form .fileform {
+  margin-bottom: 0 ;
+}
+.reply-form .fileform .fileformlabel {
+  height: 100%;
+  color: inherit;
+  font-size: 12px;
+  text-align: left;
+  line-height: 20px;
+  padding: 9px 12px;
+  margin-left: 0;
+}
+.reply-form textarea.form-control {
+  height: 205px;
 }
 /* Стилизация счетчика товара */
 .jq-number {
@@ -824,11 +965,6 @@ body {
   -moz-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
   box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.75);
 }
-@media (min-width: 768px) {
-  .news-image {
-    margin-bottom: 0;
-  }
-}
 .news-date {
   color: #a7a7a7;
   font-size: 11px;
@@ -906,6 +1042,118 @@ body {
   position: absolute;
   content: ">>>";
 }
+.profile {
+  margin-bottom: 15px;
+}
+.profile .profile-title {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile .profile-title li {
+  width: 50%;
+  float: left;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: url("../img/profile-tabs-bg.png") 100% 0 no-repeat;
+}
+.profile .profile-title li:hover,
+.profile .profile-title li.ui-state-active {
+  background-position: 100% -40px;
+}
+.profile .profile-title li a {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  color: #494848;
+  padding: 10px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.profile .profile-item {
+  color: #494848;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 20px 20px 20px 20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dddede+0,dcdcdd+100 */
+  background: #dddede;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkZGVkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkY2RjZGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #dddede 0%, #dcdcdd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #dddede), color-stop(100%, #dcdcdd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #dddede 0%, #dcdcdd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #dddede 0%, #dcdcdd 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #dddede 0%, #dcdcdd 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #dddede 0%, #dcdcdd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddede', endColorstr='#dcdcdd', GradientType=1);
+  /* IE6-8 */
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(73, 72, 72, 0.5);
+  -webkit-border-radius: 0 3px 3px 3px;
+  -moz-border-radius: 0 3px 3px 3px;
+  border-radius: 0 3px 3px 3px;
+}
+.profile .profile-item .profile-item-inner {
+  padding: 20px;
+  background: #f8f8f8;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+.profile .order-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile .order-list li {
+  margin-bottom: 3px;
+}
+.profile .order-list a {
+  position: relative;
+  padding-right: 25px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: underline;
+}
+.profile .order-list a:before {
+  top: 1px;
+  right: 0;
+  width: 17px;
+  height: 12px;
+  content: " ";
+  position: absolute;
+  background: url("../img/order-list-arrow.png") 0 -79px no-repeat;
+}
+.profile .order-list .order-view a:before {
+  background-position: 0 0 ;
+}
+.profile .order-list .order-desctiption {
+  display: none;
+  margin-bottom: 15px;
+}
+@media (min-width: 1024px) {
+  .profile .profile-title li {
+    width: 248px;
+  }
+  .profile .order-list .order-desctiption {
+    width: 60%;
+  }
+  .profile .form-inner {
+    width: 70%;
+  }
+}
 /* Modal box */
 .go-basket {
   width: 300px;
@@ -947,7 +1195,6 @@ body {
 .go-basket .btn {
   width: 100%;
 }
-/* ------------------------- */
 /* Footer
    ========================= */
 .footer {
@@ -1204,8 +1451,10 @@ body {
   border-color: #cecece;
 }
 .form-control {
-  height: 40px;
+  height: auto;
+  padding: 9px 12px;
   position: relative;
+  text-align: right;
   border-top: 1px solid #ffffff;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
@@ -1230,8 +1479,88 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#dcdcdc', GradientType=0);
   /* IE6-8 */
 }
+.form-control:focus {
+  border-color: #ccc;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+.form-date-group {
+  position: relative;
+}
+.form-date-group .form-control {
+  padding-right: 60px;
+}
+.form-date-group:before {
+  top: 5px;
+  right: 20px;
+  width: 27px;
+  height: 27px;
+  content: " ";
+  z-index: 40;
+  position: absolute;
+  background: url("../img/icon-calendar.png") 0 0 no-repeat;
+}
 .form-horizontal .control-label {
-  padding-top: 12px;
+  padding-top: 8px;
+  text-align: left;
+}
+.radio label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 15px;
+  font-size: 12px;
+  color: #494848;
+  line-height: 24px;
+}
+.radio label:before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding-left: 1px;
+  padding-top: 1px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background: url("../img/icon-radio-check.png") 0 -24px no-repeat;
+}
+.radio input[type=radio] {
+  display: none;
+}
+.radio input[type=radio]:checked + label:before {
+  background: url("../img/icon-radio-check.png") 0 0 no-repeat;
+}
+.checkbox input[type=checkbox] {
+  display: none;
+}
+.checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding-left: 1px;
+  padding-top: 1px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background: url("../img/icon-radio-check.png") -24px -24px no-repeat;
+}
+.checkbox input[type=checkbox]:checked + label:before {
+  background: url("../img/icon-radio-check.png") -24px 0 no-repeat;
 }
 /* Typography
 	   ========================= */
@@ -1247,19 +1576,19 @@ h1 {
   color: #494848;
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 h2 {
   color: #494848;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 20px;
   padding-bottom: 15px;
 }
 h3 {
   color: #494848;
   font-size: 17px;
   line-height: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 p {
   padding: 0;
@@ -1284,4 +1613,102 @@ nav ul {
 .img-left {
   float: left;
   margin: 0 20px 10px 0;
+}
+/* Jquery UI custom style */
+.ui-datepicker {
+  width: 17em;
+  padding: 5px;
+  display: none;
+  background: #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+}
+.ui-datepicker .ui-datepicker-header {
+  color: #fff;
+  padding: .2em 0;
+  text-align: center;
+  line-height: 1.8em;
+  position: relative;
+  background: #333333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.ui-datepicker .ui-datepicker-header select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-month,
+.ui-datepicker .ui-datepicker-header .ui-datepicker-year {
+  width: 49%;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+  cursor: pointer;
+  position: absolute;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  top: 50%;
+  left: 50%;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  display: block;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-left: -6px;
+  position: absolute;
+  background: transparent url("../img/icon-set.png") no-repeat;
+}
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+.ui-datepicker .ui-datepicker-prev span {
+  background-position: -82px -194px;
+}
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+.ui-datepicker .ui-datepicker-next span {
+  background-position: -50px -194px;
+}
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+.ui-datepicker table th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+.ui-datepicker table td {
+  border: 0;
+  padding: 1px;
+}
+.ui-datepicker table td.ui-datepicker-today {
+  background: #fff;
+}
+.ui-datepicker table td.ui-datepicker-today .ui-state-default {
+  border-color: #cd0a0a;
+}
+.ui-datepicker table span,
+.ui-datepicker table a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+.ui-datepicker .ui-state-default {
+  border: 1px solid #cccccc;
 }

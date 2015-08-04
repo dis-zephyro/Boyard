@@ -31,7 +31,7 @@
                     <?php include('includes/topline.php'); ?>
                     <!-- End of Topline -->
                     <div class="showcase">
-                        <h2>Хиты продаж</h2>
+                        <h1>Хиты продаж</h1>
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">

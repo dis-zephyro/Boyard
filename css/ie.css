@@ -5,6 +5,7 @@
 .btn-buy:hover,
 .sidenav,
 .btn-gray,
-.go-basket {
+.go-basket,
+.profile-item {
 	filter: none;
 }

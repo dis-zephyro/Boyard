@@ -8,6 +8,7 @@
 
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="js/vendor/slick/slick.css">
 <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
 <link rel="stylesheet" href="css/main.css">
 
