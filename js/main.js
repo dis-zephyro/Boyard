@@ -148,6 +148,37 @@ $(".product-image-link").fancybox({
 
 
 
+var hide = function(){
+
+    var menu_height = 441;
+    var element = $('.sidenav');
+
+    if ($(window).width() > 1023) {
+
+        $(function(){
+            $(window).scroll(function(){
+                var menu_top = $(this).scrollTop();
+                if (menu_top < menu_height) {
+                    element.css('top', (menu_height-menu_top));
+                } else {
+                    element.css('top', 5);
+                }
+            });
+        });
+    }
+    else {
+
+    }
+};
+hide();
+$(window).resize(hide);
+
+
+
+
+
+
+
 // Пример - можно удалить
 $(".btn-basket").click(function(event) {
     event.preventDefault();

@@ -381,7 +381,6 @@ body {
 
 .sidenav {
 	width: 100%;
-	position: relative;
 	margin-bottom: 10px;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -468,6 +467,10 @@ body {
 		}
 	}
 
+	.sidenav-inner {
+
+	}
+
 
 	@media (min-width: @width-sm) {
 
@@ -532,9 +535,27 @@ body {
 	}
 
 	@media (min-width: @width-xl) {
+
+		top: 441px;
+		width: 225px;
+		position: fixed;
+
+
 		.sub-menu {
 			width: 490px;
 			padding: 10px 16px;
+		}
+
+
+		.sidenav-inner {
+
+		}
+
+		&.sidenav-fixed {
+			top: auto;
+			bottom: 0px;
+			position: fixed;
+
 		}
 	}
 }
