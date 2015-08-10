@@ -533,9 +533,9 @@ body {
 }
 @media (min-width: 1024px) {
   .sidenav {
-    top: 441px;
+    top: 0;
     width: 225px;
-    position: fixed;
+    position: absolute;
   }
   .sidenav .sub-menu {
     width: 490px;
@@ -544,6 +544,12 @@ body {
   .sidenav.sidenav-fixed {
     top: auto;
     bottom: 0px;
+    position: fixed;
+    margin-bottom: 170px;
+  }
+  .sidenav.sidenav-fixed-bottom {
+    top: auto;
+    bottom: 180px;
     position: fixed;
   }
 }
