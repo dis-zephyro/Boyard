@@ -457,6 +457,7 @@ body {
   text-decoration: underline;
 }
 .sidenav .sub-menu {
+  z-index: 100;
   display: none;
   min-width: 160px;
   list-style: none;
