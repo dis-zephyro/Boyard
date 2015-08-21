@@ -766,6 +766,7 @@ body {
   margin-bottom: 17px;
 }
 .product .product-image .product-image-inner {
+  float: left;
   padding: 2px 3px 8px 3px;
 }
 .product .product-image img {

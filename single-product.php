@@ -41,26 +41,51 @@
                                             <img class="img-responsive" src="images/product.jpg" alt="">
                                         </a>
                                     </div>
+                                    <div class="product-image-inner">
+                                        <a class="product-image-link" href="images/product1.jpg">
+                                            <img class="img-responsive" src="images/product1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product-image-inner">
+                                        <a class="product-image-link" href="images/product2.jpg">
+                                            <img class="img-responsive" src="images/product2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product-image-inner">
+                                        <a class="product-image-link" href="images/product3.jpg">
+                                            <img class="img-responsive" src="images/product3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product-image-inner">
+                                        <a class="product-image-link" href="images/product1.jpg">
+                                            <img class="img-responsive" src="images/product1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product-image-inner">
+                                        <a class="product-image-link" href="images/product2.jpg">
+                                            <img class="img-responsive" src="images/product2.jpg" alt="">
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="product-image-thumbs">
-                                    <ul class="clearfix">
+                                    <ul class="product-image-thumbs-slide clearfix">
                                         <li>
                                             <img class="img-responsive" src="images/product.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img class="img-responsive" src="images/product.jpg" alt="">
+                                            <img class="img-responsive" src="images/product1.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img class="img-responsive" src="images/product.jpg" alt="">
+                                            <img class="img-responsive" src="images/product2.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img class="img-responsive" src="images/product.jpg" alt="">
+                                            <img class="img-responsive" src="images/product3.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img class="img-responsive" src="images/product.jpg" alt="">
+                                            <img class="img-responsive" src="images/product1.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img class="img-responsive" src="images/product.jpg" alt="">
+                                            <img class="img-responsive" src="images/product2.jpg" alt="">
                                         </li>
                                     </ul>
                                     <span class="thumb-nav thumb-prev"><i class="fa fa-chevron-left"></i></span>

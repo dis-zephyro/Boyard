@@ -8,7 +8,7 @@
             <ul>
                 <li><a href="#">Плитные материалы</a></li>
                 <li><a href="#">Кромочные материалы</a></li>
-                <li>
+                <li class="nav-toggle">
                     <a href="#">Столешницы СКИФ</a>
                     <div class="sub-menu">
                         <div class="row">

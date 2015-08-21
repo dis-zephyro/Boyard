@@ -2,7 +2,7 @@
 
 $(document).ready(function Sidenav() {
 // Указываем переменные
-    var accordion_head = $('.sidenav  li > a'),
+    var accordion_head = $('.sidenav  li.nav-toggle > a'),
         accordion_body = $('.sidenav li > .sub-menu');
 
 // Функция клика
@@ -123,6 +123,7 @@ $('.product-image').slick({
     fade: true,
     asNavFor: '.product-image-thumbs ul'
 });
+
 $('.product-image-thumbs ul').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -131,6 +132,8 @@ $('.product-image-thumbs ul').slick({
     arrows: false,
     focusOnSelect: true
 });
+
+
 
 
 
