@@ -149,35 +149,6 @@ $(".product-image-link").fancybox({
     "padding" : 0
 });
 
-/*
-
-var hide = function(){
-
-    var menu_height = 441;
-    var element = $('.sidenav');
-
-    if ($(window).width() > 1023) {
-
-        $(function(){
-            $(window).scroll(function(){
-                var menu_top = $(this).scrollTop();
-                if (menu_top < menu_height) {
-                    element.css('top', (menu_height-menu_top));
-                } else {
-                    element.css('top', 5);
-                }
-            });
-        });
-    }
-    else {
-
-    }
-};
-hide();
-$(window).resize(hide);
-
-
-*/
 
 $(function(){
     var navHeight = $('.sidenav').height();
@@ -186,9 +157,9 @@ $(function(){
     console.log(browserHeight);
 
     $(window).on("scroll", function() {
-        if ($(window).scrollTop() > (navHeight - browserHeight + 440)) $('.sidenav').addClass('sidenav-fixed');
+        if ($(window).scrollTop() > (navHeight - browserHeight + 640)) $('.sidenav').addClass('sidenav-fixed');
         else $('.sidenav').removeClass('sidenav-fixed');
-        if ($(window).scrollTop() > ($(window).height() + 440)) $('.sidenav').addClass('sidenav-fixed');
+        if ($(window).scrollTop() > ($(window).height() + 300)) $('.sidenav').addClass('sidenav-fixed');
     })
 });
 
