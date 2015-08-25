@@ -537,7 +537,6 @@ body {
   .sidenav {
     top: 0;
     width: 225px;
-    position: absolute;
   }
   .sidenav .sub-menu {
     width: 490px;
@@ -791,6 +790,7 @@ body {
 .product .product-image-thumbs li {
   float: left;
   width: 33.33%;
+  outline: none;
   cursor: pointer;
   padding: 2px 10px 8px 10px;
 }
