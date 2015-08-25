@@ -1,5 +1,5 @@
 // menu --------
-
+/*
 $(document).ready(function Sidenav() {
 // Указываем переменные
     var accordion_head = $('.sidenav  li.nav-toggle > a'),
@@ -23,7 +23,7 @@ $(document).ready(function Sidenav() {
         }
     });
 });
-
+*/
 // Просмотр заказов --------
 
 $('.order-name a').click(function (event) {

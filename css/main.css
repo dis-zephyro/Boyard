@@ -459,7 +459,6 @@ body {
 }
 .sidenav .sub-menu {
   z-index: 100;
-  display: none;
   min-width: 160px;
   list-style: none;
   padding-top: 10px;
@@ -482,6 +481,9 @@ body {
   .sidenav .navbar-toggle {
     display: none;
   }
+  .sidenav ul > li:hover .sub-menu {
+    display: block;
+  }
   .sidenav .sidenav-body {
     padding-top: 15px;
   }
@@ -496,15 +498,22 @@ body {
   }
   .sidenav .sub-menu {
     top: -30px;
-    left: 224px;
-    width: 400px;
-    padding: 10px 16px;
+    left: 189px;
     position: absolute;
     z-index: 1000;
-    min-width: 160px;
+    display: none;
     list-style: none;
     font-size: 14px;
     text-align: left;
+    padding-left: 35px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .sidenav .sub-menu .sub-menu-body {
+    width: 400px;
+    min-width: 160px;
+    padding: 10px 16px;
     border: 1px solid #cccccc;
     border: 1px solid rgba(0, 0, 0, 0.15);
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfcfcf+0,f6f6f6+100&amp;0.9+0,0.9+100 */
@@ -524,9 +533,6 @@ body {
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6cfcfcf', endColorstr='#e6f6f6f6', GradientType=1);
     /* IE6-8 */
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
   }
   .sidenav .sub-menu ul ul {
     padding-top: 10px;
@@ -538,7 +544,7 @@ body {
     top: 0;
     width: 225px;
   }
-  .sidenav .sub-menu {
+  .sidenav .sub-menu .sub-menu-body {
     width: 490px;
     padding: 10px 16px;
   }
@@ -587,14 +593,14 @@ body {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .search-form .search-form-control::-moz-placeholder {
-  color: #929292;
+  color: #b2b2b2;
   opacity: 1;
 }
 .search-form .search-form-control:-ms-input-placeholder {
-  color: #929292;
+  color: #b2b2b2;
 }
 .search-form .search-form-control::-webkit-input-placeholder {
-  color: #929292;
+  color: #b2b2b2;
 }
 .search-form .btn-search {
   top: 5px;
@@ -658,6 +664,13 @@ body {
   color: #484646;
   font-size: 14px;
   margin-bottom: 10px;
+}
+.showcase-item .showcase-title a {
+  color: #484646;
+  text-decoration: none;
+}
+.showcase-item .showcase-title a:hover {
+  text-decoration: underline;
 }
 .showcase-item p {
   margin-bottom: 5px;
@@ -1502,6 +1515,16 @@ body {
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.26);
+}
+.form-control::-moz-placeholder {
+  color: #b2b2b2;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #b2b2b2;
+}
+.form-control::-webkit-input-placeholder {
+  color: #b2b2b2;
 }
 .form-date-group {
   position: relative;
