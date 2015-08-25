@@ -481,6 +481,10 @@ body {
   .sidenav .navbar-toggle {
     display: none;
   }
+  .sidenav ul > li:hover > a {
+    color: #c22328;
+    text-decoration: underline;
+  }
   .sidenav ul > li:hover .sub-menu {
     display: block;
   }
