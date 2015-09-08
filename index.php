@@ -35,10 +35,8 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -51,10 +49,8 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -67,10 +63,8 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -84,10 +78,8 @@
 
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -100,10 +92,8 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -116,10 +106,23 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
+                                    <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
+                                    <div class="product-price">1200 руб./шт.</div>
+                                </div>
+                                <div class="showcase-buy clearfix">
+                                    <form class="form-buy">
+                                        <input class="count" type="number" value="1">
+                                        <button type="submit" class="btn btn-basket">В корзину</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="showcase-item">
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -132,10 +135,8 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
@@ -148,26 +149,8 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
-                                    <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
-                                    <div class="product-price">1200 руб./шт.</div>
-                                </div>
-                                <div class="showcase-buy clearfix">
-                                    <form class="form-buy">
-                                        <input class="count" type="number" value="1">
-                                        <button type="submit" class="btn btn-basket">В корзину</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <div class="showcase-item">
-                                    <a href="#">
-                                        <img class="img-responsive" src="images/product-01.png" alt="">
-                                    </a>
-                                    <h4 class="showcase-title"><a href="#">Столешницы Скиф</a></h4>
+                                    <img class="img-responsive" src="images/product-01.png" alt="">
+                                    <h4 class="showcase-title">Столешницы Скиф</h4>
                                     <p>Матовые 3050*600*26 мм<br/>Матовые 3050*600*38 мм ...</p>
                                     <div class="product-price">1200 руб./шт.</div>
                                 </div>
